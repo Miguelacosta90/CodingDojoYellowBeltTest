@@ -1,0 +1,151 @@
+/***C.codes
+----test----
+-&raquo >>
+**/
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #262626;
+  color: white;
+}
+#container{
+  width: 1000px;
+  margin: 0 auto;
+}
+/*S.header*/
+#header{
+  background-color: #262626;
+  margin-right: 10px;
+}
+#header span{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 600px;
+  margin-top: 20px;
+  background-color: black;
+  color: gray;
+}
+#header img{
+  display: inline-block;
+  vertical-align: top;
+}
+/*S.header*/
+/*S.nav*/
+#nav{
+  background-color: black;
+  margin-right: 299px;
+}
+#nav ul li{
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  color:gray;
+}
+#nav span{
+  color: gray;
+}
+/*E.nav*/
+/******** S infolinks ********/
+#infolinks{
+  display: inline-block;
+  vertical-align: top;
+  background-color: white;
+}
+.photos{
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+}
+.photos img{
+    margin: 10px 0px 0 10px;
+}
+.photos span{
+  display: inline-block;
+  vertical-align: top;
+  color: orange;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.photos p{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  margin-left: 60px;
+  padding: 0 10px 0 0;
+}
+/******** E infolinks ********/
+
+/************* S buy ************/
+#buy{
+  background-color: black;
+  display: inline-block;
+  vertical-align: top;
+
+}
+#buy button{
+  background-color: #ffb82f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    cursor: pointer;
+    margin: -30px 10px 50px 200px;
+}
+#buy h2{
+  background-color: black;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 20px;
+}
+#buy p{
+  background-color: black;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/************* E buy ************/
+
+#portfolio{
+  display: inline-block;
+  vertical-align: top;
+  background-color: #262626;
+}
+#portfolio h5{
+  margin: 40px 0 0 10px;
+  font-size: 20px;
+  font-family: bold;
+}
+#portfolio h6{
+  color: orange;
+  margin-left: 880px;
+}
+#portfolio h6 span{
+  color: orange;
+}
+.portimg{
+  display: inline-block;
+  vertical-align: top;
+  margin: 13.3px;
+  width: 220px;
+}
+.portimg img{
+  display: inline-block;
+  vertical-align: top;
+}
+.portimg span{
+  color: orange;
+}
+.portimg p{
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  font-size: 10px;
+}
